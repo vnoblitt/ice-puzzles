@@ -1,0 +1,20 @@
+body {
+    background-color: wheat;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width: min(95vw, 95vh);
+    height: min(95vw, 95vh);
+    margin: 0 auto; 
+}
+.player {
+    color: black;
+}
+
+.square {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
